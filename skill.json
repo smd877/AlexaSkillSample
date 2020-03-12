@@ -1,0 +1,54 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "体調気遣いさん",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ReplyIntent",
+                    "slots": [
+                        {
+                            "name": "reply_message",
+                            "type": "reply_message"
+                        }
+                    ],
+                    "samples": [
+                        "{reply_message}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "reply_message",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "いいえ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "はい"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
